@@ -15,5 +15,8 @@
     "bugs": {
         "url": "https://github.com/letterpad/editor-docs/issues"
     },
-    "homepage": "https://github.com/letterpad/editor-docs#readme"
+    "homepage": "https://github.com/letterpad/editor-docs#readme",
+    "devDependencies": {
+        "gitbook-cli": "^2.3.2"
+    }
 }
