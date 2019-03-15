@@ -1,0 +1,8 @@
+{
+    "plugins": ["highlight", "-prism", "github"],
+    "pluginsConfig": {
+        "github": {
+            "url": "https://github.com/letterpad/editor-docs"
+        }
+    }
+}

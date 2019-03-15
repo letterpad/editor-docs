@@ -1,6 +1,22 @@
-# Hooks
+# Options
 
-Hooks are callback functions triggered from plugins. This allows you to overwrite a plugin's default behaviour. For eg. if you want to change the bold tag from `<strong>` to `<b>`, you can do so using one of the hooks. Currently we have three hooks that you can tap into.
+Below are all the options that you can pass to the editor.
+
+### theme
+
+```
+string
+```
+
+Options are `light` and `dark`. (default - `dark`)
+
+### spellCheck
+
+```
+boolean
+```
+
+Whether or not spellcheck is turned on for the editor. This is an option provided by slatejs.
 
 ### onButtonClick
 
@@ -8,11 +24,13 @@ Hooks are callback functions triggered from plugins. This allows you to overwrit
 onButtonClick(e: MouseEvent, type: string, callbacks: { [key: string]: any }) => boolean
 ```
 
+You can overwrite a plugin's default behaviour by tapping into this hook. Below is an example
+
 **Example**
 
 ```
  onButtonClick = (
-    _: MouseEvent,
+    e: MouseEvent,
     type: string,
     callbacks: { [key: string]: any }
   ) => {

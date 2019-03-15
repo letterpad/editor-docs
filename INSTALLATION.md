@@ -12,7 +12,8 @@ You can use the editor in your project by creating a React component and importi
 
 ```js
 import React from "react";
+import { render } from "react-dom";
 import LetterpadEditor from "letterpad-editor";
 
-export default <LetterpadEditor />;
+render(<LetterpadEditor />, document.getElementById("app"));
 ```

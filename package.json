@@ -18,5 +18,9 @@
     "homepage": "https://github.com/letterpad/editor-docs#readme",
     "devDependencies": {
         "gitbook-cli": "^2.3.2"
+    },
+    "dependencies": {
+        "gitbook-plugin-last-modified": "^1.0.0",
+        "gitbook-plugin-recently-updated": "github:jwarby/gitbook-plugin-recently-updated"
     }
 }

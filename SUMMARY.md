@@ -1,8 +1,8 @@
 # Summary
 
 -   [Introduction](README.md)
--   [Installation](INSTALLATION.md)
--   [Hooks](HOOKS.md)
--   [Plugins](PLUGINS.md)
-    -   [Writing a Plugin](WRITEPLUGIN.md)
--   [Rendering](RENDERING.md)
+-   [Installation](installation.md)
+-   [Options](options.md)
+-   [Plugins](plugins.md)
+    -   [Writing a Plugin](writeplugin.md)
+-   [Rendering](rendering.md)
