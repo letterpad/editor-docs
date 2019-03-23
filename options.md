@@ -1,26 +1,28 @@
 # Options
 
+## Options
+
 Below are all the options that you can pass to the editor.
 
-### theme
+#### theme
 
-```
+```text
 string
 ```
 
-Options are `light` and `dark`. (default - `dark`)
+Options are `light` and `dark`. \(default - `dark`\)
 
-### spellCheck
+#### spellCheck
 
-```
+```text
 boolean
 ```
 
 Whether or not spellcheck is turned on for the editor. This is an option provided by slatejs.
 
-### onButtonClick
+#### onButtonClick
 
-```
+```text
 onButtonClick(e: MouseEvent, type: string, callbacks: { [key: string]: any }) => boolean
 ```
 
@@ -28,7 +30,7 @@ You can overwrite a plugin's default behaviour by tapping into this hook. Below 
 
 **Example**
 
-```
+```text
  onButtonClick = (
     e: MouseEvent,
     type: string,
@@ -44,17 +46,17 @@ You can overwrite a plugin's default behaviour by tapping into this hook. Below 
   };
 ```
 
-### onBeforeRender
+#### onBeforeRender
 
 With this hook, you can change the way a particular tag is rendered
 
-```
+```text
 onBeforeRender = ({ type: string; props: { editor: Editor } }) => void
 ```
 
 **Example**
 
-```js
+```javascript
 onBeforeRender = (props: {
     type: string,
     renderType: string
@@ -66,10 +68,11 @@ onBeforeRender = (props: {
 };
 ```
 
-### getCharCount
+#### getCharCount
 
 A hook to get the word count.
 
-```
+```text
 getCharCount = (count) => void
 ```
+
